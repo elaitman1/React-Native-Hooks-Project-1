@@ -1,3 +1,2 @@
-# React-Native-Project-1
-# React-Native-Hooks-Project-1
-# React-Native-Hooks-Project-1
+push single file git commit -m "Pushing Only Single file to git" App.js
+
