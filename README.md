@@ -6,3 +6,4 @@ git add -u :/ all files
 
 git push
 
+git commit -m 'if statement results list' commit changes
