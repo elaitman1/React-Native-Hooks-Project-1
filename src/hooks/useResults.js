@@ -31,7 +31,7 @@ export default () => {
     useEffect(() => {
         searchApi('pasta')
     }, [])
-debugger
+
     return [searchApi, results, errorMessage]
 }
 

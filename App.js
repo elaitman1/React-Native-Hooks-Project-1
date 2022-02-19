@@ -22,7 +22,7 @@ const filtersResultsByPrice = (dollarSign) =>{
       onTermSubmit={() => searchApi(term)} 
     />
     {errorMessage ? <Text>{errorMessage}</Text> : null}
-    {/* <Text>We have found {results.length} results</Text> */}
+    <Text>We have found {results.length} results</Text>
     <ResultsList reults={filtersResultsByPrice('$')} title='Cost Effective'/>
     <ResultsList reults={filtersResultsByPrice('$$')} title='Bit Pricier'/>
     <ResultsList reults={filtersResultsByPrice('$$$')} title='Big Spender'/>
